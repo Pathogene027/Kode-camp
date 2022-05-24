@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Home page</title>
+             <style>
+            body{
+                font-family: sans-serif;
+                font-size: 20px; margin: auto;
+                }
+
+             #nav li{
+                display: inline-block; font-size: 20px; margin-right: 20px;
+                }
+
+            #nav{
+                background-color: #90EE90; position: fixed; margin-top:-30px; margin-bottom:30px;
+                }
+
+            .check{
+                display : inline-block; margin-left: 15px
+                   }
+
+            div{
+                margin-left: 35px;
+                }
+
+            input{
+                display: block; margin-bottom: 20px; border-radius:20px; border: 3px solid #ADD8E6;padding: 1em
+                }
+
+            input[type='text']::placeholder{
+                    text-align:center;
+                   }
+            a{
+                text-decoration:none
+                }
+
+             a:hover{
+                transition:1s;
+                color: brown
+                }
+            </style>
+        </head>
+        <body>
+
+            <h1><ul id = 'nav'>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#">Account</a></li>
+                </ul>
+            </h1>
+            &nbsp;
+            <div>
+                <h1>
+                    Questionnaire
+                </h1>
+                <p>This questionnaire is to access you on your qualifications for the job</p>
+                <form method="post" action="#">
+                    <input type="text" placeholder="What is your name?">
+                    <input type="text" placeholder="What is your age?">
+                    <input type placeholder="What job are you applying for?">
+                    <input type="text" placeholder="What is your qualification?">
+                    <input type="text" placeholder="Are you married?">
+                    <input type="text" placeholder="How  many kids do you have?">
+                    <input type="text" placeholder="Are you a programmer?">
+                    <p>If you are a programmer, choose the languages you are good with</p>
+                    <p class="check">Python<input type="checkbox"></p>
+                    <p class="check">JavaScript<input type="checkbox"></p>
+                    <p class="check">Java<input type="checkbox"></p>
+                    <p class="check">C++<input type="checkbox"></p>
+                    </ul>
+                    &nbsp;
+                    <input type="text" placeholder="Man United or chelsea?" id="con">
+                </form>
+            </div>
+        </body>
+</html>

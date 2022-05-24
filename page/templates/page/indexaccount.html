@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+           input{
+                display: block; margin-bottom: 20px; border-radius:20px; border: 3px solid #ADD8E6;padding: 1em
+                }
+
+            input[type='text']::placeholder{
+                    text-align:center;
+                   }
+
+             #nav li{
+                display: inline-block; font-size: 20px; margin-right: 20px
+                }
+
+            #nav{
+                background-color: #90EE90; margin-top:-30px; margin-bottom:10px; position:fixed
+                }
+               p{
+                font-size:30px
+                }
+
+               a{
+                text-decoration: none
+                }
+
+                a:hover{
+                transition:1s;
+                color:brown
+                }
+
+
+     </style>
+     <title>Account Page</title>
+</head>
+<body>
+<h1> <ul id = 'nav'>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#">Account</a></li>
+                </ul>
+            </h1>
+     <h1>Sign In </h1>
+     <form method = 'put' action = '#'>
+          <input type= 'email' placeholder = 'Enter your mail'>
+          <input type= 'password' placeholder = 'Enter password'>
+          <input type = 'button' value = 'sign in'>
+     </form>
+<br>
+     <h1>Sign Up</h1>
+     <form method = 'put' action = '#'>
+          <input type="text" placeholder="What is your name?">
+          <input type='date'>
+          <input type= 'email' placeholder = 'Enter your mail'>
+          <input type= 'password' placeholder = 'Enter password'>
+          <input type= 'password' placeholder = 'Confirm password'>
+          <input type = 'button' value = 'sign up'>
+     </form>
+
+</body>
+</html>
